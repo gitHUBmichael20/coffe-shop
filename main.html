@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<link />
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Coffe Shop</title>
+<link rel="icon" href="asset/Cafe-Street/Images/logo.png" type="image/icon type" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+<link rel="stylesheet" href="style.css" />
+
+<body>
+  <div class="container py-5">
+    <!--  Header -->
+    <div class="hero-background">
+      <img src="asset/Cafe-Street/Images/bg-hero.png" height="350" width="550px" />
+    </div>
+    <h1 style="padding-top: -2rem">
+      <strong>Popular <span class="underline-yellow">Now</span></strong>
+    </h1>
+
+    <!--  Products -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+      <div class="col">
+        <div class="card">
+          <div class="badge gap-2 bg-white text-dark"><strong>4.8</strong>
+            <img src="asset/Cafe-Street/Icons/gold-star.svg" style="width: 20px" />
+          </div>
+          <img src="asset/Cafe-Street/Images/product-1.png" class="card-img-top" />
+          <div class="mb-3 d-flex container">
+            <h5 class="card-title"><strong>Vanilla Latte</strong></h5>
+            <h5 class="card-title ms-auto"><b>21k</b></h5>
+          </div>
+          <div id="button-parent" class="mb-3 d-flex container gap-3">
+            <button class="btn btn-outline-warning"><strong>cold</strong></button>
+            <button class="btn btn-outline-warning"><strong>hot</strong></button>
+            <button type="button" class="ms-auto btn btn-warning rounded-circle" id="shopping-cart-button"
+              style="background-color: #fd7e14">
+              <img src="asset/Cafe-Street/Icons/white-cart.svg" alt="Cart" style="width: 20px" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="badge gap-2 bg-white text-dark"><strong>4.8</strong>
+            <img src="asset/Cafe-Street/Icons/gold-star.svg" style="width: 20px" />
+          </div>
+          <img src="asset/Cafe-Street/Images/product-2.png" class="card-img-top" />
+          <div class="mb-3 d-flex container">
+            <h5 class="card-title"><strong>Espresso</strong></h5>
+            <h5 class="card-title ms-auto"><b>12k</b></h5>
+          </div>
+          <div id="button-parent" class="mb-3 d-flex container gap-3">
+            <button class="btn btn-outline-warning"><strong>cold</strong></button>
+            <button class="btn btn-outline-warning"><strong>hot</strong></button>
+            <button type="button" class="ms-auto btn btn-warning rounded-circle" id="shopping-cart-button"
+              style="background-color: #fd7e14">
+              <img src="asset/Cafe-Street/Icons/white-cart.svg" alt="Cart" style="width: 20px" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="badge gap-2 bg-white text-dark"><strong>4.8</strong>
+            <img src="asset/Cafe-Street/Icons/gold-star.svg" style="width: 20px" />
+          </div>
+          <img src="asset/Cafe-Street/Images/product-3.png" class="card-img-top" />
+          <div class="mb-3 d-flex container">
+            <h5 class="card-title"><strong>Hazelnut Latte</strong></h5>
+            <h5 class="ms-auto"><b>12k</b></h5>
+          </div>
+          <div id="button-parent" class="mb-3 d-flex container gap-3">
+            <button class="btn btn-outline-warning"><strong>cold</strong></button>
+            <button class="btn btn-outline-warning"><strong>hot</strong></button>
+            <button type="button" class="ms-auto btn btn-warning rounded-circle" id="shopping-cart-button"
+              style="background-color: #fd7e14">
+              <img src="asset/Cafe-Street/Icons/white-cart.svg" alt="Cart" style="width: 20px" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="background-catalog"></div>
+    </div>
+  </div>
+
+  <!-- Services Delivery -->
+
+  <div class="container py-5" style="margin-top: 50px;">
+    <div class="container">
+      <h1 class="mb-3">
+        <strong>
+          How to use delivery
+          <span class="underline-yellow">service</span></strong>
+      </h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <img src="asset/Cafe-Street/Images/service-1.png" alt="service-1" class="rounded mx-auto d-block"
+            id="service-1" />
+          <p class="pt-4 fs-6 fw-bold text-center">Choose your coffee</p>
+          <p class="text-center">There are 20+ coffees for you</p>
+        </div>
+        <div class="col-sm">
+          <div class="row">
+            <div class="col-sm">
+              <img src="asset/Cafe-Street/Images/service-2.png" alt="service-1" class="rounded mx-auto d-block"
+                id="service-1" />
+              <p class="pt-4 fs-6 fw-bold text-center">
+                We deliver it to you
+              </p>
+              <p class="text-center">Choose delivery service</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="row">
+            <div class="col-sm">
+              <img src="asset/Cafe-Street/Images/service-3.png" alt="service-1" class="rounded mx-auto d-block"
+                id="service-1" />
+              <p class="pt-4 fs-6 fw-bold text-center">Enjoy your coffe</p>
+              <p class="text-center">There are 20+ coffees for you</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Mengatur Header background dari halam */
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #efdabc;
+  z-index: -100;
+}
+
+/* Mengatur list barang */
+.card-img-top {
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: rgba(94, 92, 92, 0.145) (109, 101, 101);
+  box-shadow: 7px 5px 9px rgba(0, 0, 0, 0.249);
+}
+
+/* Background dari list barang */
+.background-catalog {
+  display: flex;
+  justify-self: center;
+  z-index: -50;
+  background-color: rgb(244, 181, 129);
+  border-radius: 50px;
+  margin-top: -26%;
+  min-width: 110%; 
+  margin-left: -5%;
+  margin-right: auto;
+  margin-bottom: -7%;
+}
+
+/* Mengatur bagian button dalam card */
+.btn-outline-warning {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+#button-parent {
+  display: flex;
+  align-items: center;
+  margin-top: -13px;
+}
+
+/* rating minuman */
+.badge { 
+  width: 80px;
+  border-radius: 14px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #6e60606c;
+  height: 28px;
+  font-size: 15px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+/* Tombol */
+#shopping-cart-button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.underline-yellow {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-underline-offset: 7px;
+}
+
+#service-1 {
+  width: 30%;
+  margin-top: 20px;
+}
